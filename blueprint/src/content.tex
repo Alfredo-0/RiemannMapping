@@ -5,3 +5,34 @@
 % If you want to split the blueprint content into several files then
 % the current file can be a simple sequence of \input. Otherwise It
 % can start with a \section or \chapter for instance.
+
+\chapter{The project}
+
+\section{A Simple Example}
+
+\begin{definition}
+\label{def:my_definition}
+\lean{my_definition}
+\leanok
+We define the function \( f(n) = n + 1 \).
+\end{definition}
+
+\begin{lemma}
+\label{lem:my_lemma}
+\lean{my_lemma}
+\leanok
+\uses{def:my_definition}
+For any natural number \( n \), we have \( f(n) > n \).
+\end{lemma}
+
+\chapter{Argument Principle}
+
+\section{Cauchy's Integral formula}
+
+\chapter{Weierstrass Theorem}
+
+\chapter{Normal Families}
+
+\section{Ascoli's Theorem}
+
+\chapter{Montel's Theorem}
